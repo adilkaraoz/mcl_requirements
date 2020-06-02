@@ -2,7 +2,8 @@
 # vi: set ft=ruby :
 Vagrant.require_version ">= 2.0.0"
 ### configuration parameters
-BOX_BASE = "hashicorp/bionic64"
+BOX_BASE = "bento/ubuntu-20.04"
+BOX_VERSION = "202005.21.0"
 BOX_CPU_COUNT = 2
 BOX_RAM_MB = "4096"
 
@@ -18,6 +19,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "#{BOX_HOSTNAME}" do |node|
     node.vm.box = BOX_BASE
+    node.vm.box_version = BOX_VERSION
     node.vm.box_check_update = false
     node.vm.hostname = "#{BOX_HOSTNAME}"
     node.vm.network "private_network", ip: BOX_IP

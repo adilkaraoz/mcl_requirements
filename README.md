@@ -1,5 +1,5 @@
 # English
-This repository is to build ubuntu 18.04 vagrant image for mining or staking MCL. You can look at http://marmara.io for information.
+This repository is to build ubuntu 20.04 vagrant image for mining or staking MCL. You can look at http://marmara.io for information.
 
 ## Requirements
 *   install virtual box from https://www.virtualbox.org/wiki/Downloads
@@ -17,7 +17,7 @@ This repository is to build ubuntu 18.04 vagrant image for mining or staking MCL
 *   Follow the instruction
 
 # Türkçe
-Vu repo MCL mining ve staking için ubuntu 18.04 imajı oluşturur. Detaylı bilgiyi http://marmara.io adresinde bulabilirsiniz.
+Vu repo MCL mining ve staking için ubuntu 20.04 imajı oluşturur. Detaylı bilgiyi http://marmara.io adresinde bulabilirsiniz.
 
 ## Gereksinimler
 *   https://www.virtualbox.org/wiki/Downloads adresinden Virtual Box'ı indirin ve yükleyin.
