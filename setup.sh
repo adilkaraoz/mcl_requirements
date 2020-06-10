@@ -11,11 +11,11 @@ mkdir -p /home/$USER_NAME/.komodo/MCL
 sudo chown $USER_NAME: /home/$USER_NAME/.komodo
 sudo chown $USER_NAME: /home/$USER_NAME/.komodo/MCL
 
-wget http://marmara.io/guifiles/Linux-MCL.zip
-unzip Linux-MCL.zip
+wget http://www.marmara.io/guifiles/Linux-MCL-HF.zip
+unzip Linux-MCL-HF.zip
 sudo chmod +x komodod komodo-cli fetch-params.sh
 ./fetch-params.sh
-rm -f Linux-MCL.zip
+rm -f Linux-MCL-HF.zip
 
 sudo ln -s /home/$USER_NAME/komodod /usr/local/bin/komodod
 sudo ln -s /home/$USER_NAME/komodo-cli /usr/local/bin/komodo-cli
